@@ -1,0 +1,73 @@
+parts:
+    # Inner 4 boxes
+    - x: -2
+      y: -2
+      w: 1
+      h: 1
+      c: 0
+
+    - x: 2
+      y: -2
+      w: 1
+      h: 1
+      c: 0
+
+    - x: -2
+      y: 2
+      w: 1
+      h: 1
+      c: 0
+
+    - x: 2
+      y: 2
+      w: 1
+      h: 1
+      c: 0
+    # Outer shell
+    - x: -5
+      y: 0
+      w: 1
+      h: 7
+      c: 0
+
+    - x: 5
+      y: 0
+      w: 1
+      h: 7
+      c: 0
+
+    - x: 0
+      y: -5
+      w: 7
+      h: 1
+      c: 0
+
+    - x: 0
+      y: 5
+      w: 7
+      h: 1
+      c: 0
+    # Goals
+    - x: -4.5
+      y: -4.5
+      w: 1
+      h: 1
+      g: true
+
+    - x: 4.5
+      y: -4.5
+      w: 1
+      h: 1
+      g: true
+
+    - x: -4.5
+      y: 4.5
+      w: 1
+      h: 1
+      g: true
+
+    - x: 4.5
+      y: 4.5
+      w: 1
+      h: 1
+      g: true

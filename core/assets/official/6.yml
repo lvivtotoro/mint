@@ -1,0 +1,90 @@
+# Theres a lotta precise fractions 'ere
+data:
+    interpId: -2
+entities:
+    - type: 'sphere'
+      x: 2
+      y: -4
+      h: -0.375 # h means Height
+      d: 0.125
+      c: 2
+    - type: 'wallkey'
+      x: 4
+      y: -4
+    - type: 'wall'
+      x: -4
+      y: -4
+      w: 1
+      h: 3
+      c: 0
+      t: 'KinematicBody'
+    - type: 'ascender'
+      x: 0
+      y: 1
+    - type: 'easter'
+      x: 0
+      y: -7
+parts:
+    - x: -2
+      y: 0
+      w: 1
+      h: 3
+      c: 0
+
+    - x: 2
+      y: 0
+      w: 1
+      h: 3
+      c: 0
+
+    - x: -0.5
+      y: -2
+      w: 8
+      h: 1
+      c: 0
+
+    - x: 0
+      y: 2
+      w: 5
+      h: 1
+      c: 0
+
+    - x: -0.5
+      y: -6
+      w: 8
+      h: 1
+      c: 0
+
+    - x: 3
+      y: -3.1875
+      w: 1
+      h: 1.375
+      c: 1
+
+    - x: 3
+      y: -4.8125
+      w: 1
+      h: 1.375
+      c: 1
+    # The goal
+    - x: -5
+      y: -4
+      w: 1
+      h: 3
+      g: true
+    # The restarts
+    - x: -3
+      y: 0.5
+      w: 1
+      h: 4
+      r: true
+    - x: 3
+      y: 0.5
+      w: 1
+      h: 4
+      r: true
+    - x: 0
+      y: 3
+      w: 5
+      h: 1
+      r: true
